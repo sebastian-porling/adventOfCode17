@@ -32,8 +32,7 @@ func main() {
             if dataArr[i] == dataArr[i+1]{
                 fmt.Print(dataArr[i])
                 buffer, err := strconv.Atoi(dataArr[i])
-                if err != nil{
-                }
+                check(err) 
                 sum += buffer
             }
 
